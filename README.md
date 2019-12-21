@@ -1,2 +1,10 @@
 # Hash-Crack
 Crack Encrypted Password Hashes
+
+```bash
+python hash_crack.py -t e6b6afbd6d76bb5d2041542d7d2e3fac5bb05593 -w ~/Wordlists/Offline/rockyou.txt
+## Example Output
+#  [*] Hash identified as sha1.
+#  [*] Loaded 14344391 words.
+#  [+] e6b6afbd6d76bb5d2041542d7d2e3fac5bb05593 --> password1234
+```
